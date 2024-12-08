@@ -1,0 +1,35 @@
+.main-page {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout-icon {
+    position: absolute;
+}
+
+.layout-icon.top {
+    top: 0px;
+    inset-inline-end: 0px;
+}
+
+.layout-icon.bottom {
+    bottom: 0px;
+    inset-inline-start: 0px;
+}
+
+.title * {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.title h1 {
+   background: linear-gradient(to right, #eb575769 0%, #9B51E0);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
